@@ -18,13 +18,19 @@ https://ollama.com/download
 
 then after you install it run this command in a seperate cmd window:
 
+
 ollama run openchat:7b
+
 
 Then after it says to enter a message, close it
 
+
 then run the assistant python script
 
+
 then use the "`" key while talking to it (Looks like '~' on your keyboard) and release when done talking
+
+
 
 **DISCLAIMER**
 This might run slow on low end systems because everything is being hosted locally so be prepared for slow downs !!
