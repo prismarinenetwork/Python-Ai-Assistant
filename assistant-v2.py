@@ -131,7 +131,7 @@ def record_mic():
     whisper_voice_rec=recognizer.recognize_whisper(combined_audio, language="english", model="medium")
     print('You said:'+whisper_voice_rec)
     print('')
-    ai_output = ollama.generate(model='openchat:7b', prompt=whisper_voice_rec)
+    ai_output = ollama.generate(model='qwen2.5vl:3b', prompt=whisper_voice_rec)
     ai_output = ai_output['response']
     print('Ai response:'+str(ai_output))
     print('')
