@@ -19,7 +19,7 @@ https://ollama.com/download
 then after you install it run this command in a seperate cmd window:
 
 
-ollama run openchat:7b
+ollama run qwen2.5vl:3b
 
 
 Then after it says to enter a message, close it
