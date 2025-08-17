@@ -1,6 +1,3 @@
-# Python-Ai-Assistant
-Joy coded so its kinda bad
-
 **Step 1: Get Python Installer.**
 Go to https://python.org then click
 <img width="1280" height="691" alt="{BDB97676-E1C8-408C-9144-06AEFB6073E4}" src="https://github.com/user-attachments/assets/707bf99a-1753-4020-9e19-807ef928aee3" />
