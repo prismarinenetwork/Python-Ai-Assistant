@@ -9,6 +9,8 @@ It should look like this below: (Make sure to click add to path)
 
 
 **Step 3: Installing the ai & running the script:**
+
+
 go to this website:
 https://ollama.com/download
 
