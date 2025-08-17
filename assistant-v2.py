@@ -110,10 +110,11 @@ def record_mic():
     engine.setProperty('rate', 190) 
     engine.say(ai_output)
     engine.runAndWait()
-
+print('Listening for input...')
 while True:
     if keyboard.is_pressed('`'):
         mp3File=record_mic()
         while keyboard.is_pressed('`'):
             pass
 #['tiny.en', 'tiny', 'base.en', 'base', 'small.en', 'small', 'medium.en', 'medium', 'large-v1', 'large-v2', 'large-v3', 'large', 'large-v3-turbo', 'turbo']
+
