@@ -1,4 +1,4 @@
-#Im Just going to let you know before you read this file that all of the code below is joy coded so don't expect anything crazy
+#Im Just going to let you know before you read this file that all of the code below is joy coded so it could be optimized but I made this for fun so its fine I guess.
 
 
 
@@ -55,6 +55,10 @@ try:
     import pyaudio
 except:
     os.system('pip install pyaudio')
+try:
+    import whisper
+except:
+    os.system('pip install -U openai-whisper')
 import ollama
 from gtts import gTTS
 import pygame 
@@ -63,9 +67,9 @@ import keyboard
 import time
 import threading
 import random
-import pyaudio
+
 def random_filename():
-        #Before you say anything I know there is a faster way but this was coded at 3:00 AM
+        #Before you say anything I know there is a wayyyyyyy faster way but this was coded at 3:00 AM
         global filename
         filename=''
         random_1=random.choice(['a','b','c','d','e','f','g','h','i','j','k','l','m','n','o','p','q','r','s','t','u','v','w','x','y','z'])
@@ -152,4 +156,3 @@ while True:
         while keyboard.is_pressed('`'):
             pass
 #['tiny.en', 'tiny', 'base.en', 'base', 'small.en', 'small', 'medium.en', 'medium', 'large-v1', 'large-v2', 'large-v3', 'large', 'large-v3-turbo', 'turbo']
-
