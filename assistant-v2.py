@@ -63,7 +63,7 @@ import keyboard
 import time
 import threading
 import random
-
+import pyaudio
 def random_filename():
         #Before you say anything I know there is a faster way but this was coded at 3:00 AM
         global filename
@@ -152,3 +152,4 @@ while True:
         while keyboard.is_pressed('`'):
             pass
 #['tiny.en', 'tiny', 'base.en', 'base', 'small.en', 'small', 'medium.en', 'medium', 'large-v1', 'large-v2', 'large-v3', 'large', 'large-v3-turbo', 'turbo']
+
