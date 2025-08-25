@@ -29,7 +29,7 @@ Then after it says to enter a message, close it
 Then run the assistant python script.
 
 
-then use the "`" key while talking to it (Looks like '~' on your keyboard) and release when done talking
+Then use the "`" key while talking to it (Looks like '~' on your keyboard) and release the key when done talking
 
 
 
