@@ -8,23 +8,25 @@ It should look like this below: (Make sure to click add to path)
 <img width="969" height="585" alt="image" src="https://github.com/user-attachments/assets/dd2e8b2f-1cd3-4310-b1a7-562497719138" />
 
 
-**Step 3: Installing the ai & running the script:**
+**Step 3: Installing The Ai & Running The Script:**
 
 
-go to this website:
+Go to this website:
+
+
 https://ollama.com/download
 
 
-then after you install it run this command in a seperate cmd window:
+then after you install it, run the following command in a seperate cmd window:
 
 
-ollama run qwen2.5vl:3b
+``ollama run qwen2.5vl:3b``
 
 
 Then after it says to enter a message, close it
 
 
-then run the assistant python script
+Then run the assistant python script.
 
 
 then use the "`" key while talking to it (Looks like '~' on your keyboard) and release when done talking
