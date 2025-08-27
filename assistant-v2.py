@@ -63,6 +63,10 @@ try:
     import pyttsx3
 except:
     os.system('pip install pyttsx3')
+try:
+    import soundfile
+except:
+    os.system('pip install soundfile')
 import ollama
 from gtts import gTTS
 import pygame 
@@ -99,7 +103,7 @@ def record_mic():
     )
     
     
-    whisper_voice_rec=recognizer.recognize_whisper(combined_audio, language="english", model="medium")
+    whisper_voice_rec=recognizer.recognize_whisper(combined_audio, language="english", model="base")
     print('You said:'+whisper_voice_rec)
     print('')
     ai_output = ollama.generate(model='qwen2.5vl:3b', prompt=whisper_voice_rec)
@@ -117,4 +121,3 @@ while True:
         while keyboard.is_pressed('`'):
             pass
 #['tiny.en', 'tiny', 'base.en', 'base', 'small.en', 'small', 'medium.en', 'medium', 'large-v1', 'large-v2', 'large-v3', 'large', 'large-v3-turbo', 'turbo']
-
