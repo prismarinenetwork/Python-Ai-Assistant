@@ -15,10 +15,8 @@ It should look like this below: (Make sure to click add to path)
 **Step 3: Installing The Ai & Running The Script:**
 
 
-Go to this website:
 
-
-https://ollama.com/download
+run ``ollama_setup.py`` 
 
 
 then after you install it, run the following command in a seperate cmd window:
