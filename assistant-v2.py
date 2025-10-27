@@ -1,28 +1,3 @@
-#Im Just going to let you know before you read this file that all of the code below is joy coded so it could be optimized but I made this for fun so its fine I guess.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 import os
 def install_pip():
     os.system('curl -sSL https://bootstrap.pypa.io/get-pip.py -o get-pip.py')
@@ -121,3 +96,4 @@ while True:
         while keyboard.is_pressed('`'):
             pass
 #['tiny.en', 'tiny', 'base.en', 'base', 'small.en', 'small', 'medium.en', 'medium', 'large-v1', 'large-v2', 'large-v3', 'large', 'large-v3-turbo', 'turbo']
+
