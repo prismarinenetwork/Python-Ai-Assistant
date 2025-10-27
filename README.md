@@ -2,7 +2,8 @@
 
 
 Go to https://python.org then click
-<img width="1280" height="691" alt="{BDB97676-E1C8-408C-9144-06AEFB6073E4}" src="https://github.com/user-attachments/assets/707bf99a-1753-4020-9e19-807ef928aee3" />
+<img width="2559" height="1235" alt="image" src="https://github.com/user-attachments/assets/98e5ceb1-4e17-459e-8a20-52af48b43493" />
+
 
 
 **Step 2: Install Python (correctly)**
